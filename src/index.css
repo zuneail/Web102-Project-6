@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #888;
+  color: white;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background: rgba(0,0,0,0.5);
+  padding: 1rem;
+}
+
+.sidebar h1 {
+  font-size: 1.5rem;
+}
+
+nav p {
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.dashboard {
+  flex: 1;
+  padding: 1rem;
+  backdrop-filter: blur(6px);
+}
+
+.cards {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  flex: 1;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.controls {
+  margin-bottom: 1rem;
+}
+
+.controls input,
+.controls select {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+table {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 0.5rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #aaa;
+}
